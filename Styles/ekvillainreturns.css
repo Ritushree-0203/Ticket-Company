@@ -1,0 +1,157 @@
+.header{
+    height:70px;
+    display:flex;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+.left-section{
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    flex:1;
+    padding-left:50px;
+}
+.logo{
+    height:100px;
+    width:180px;
+    object-fit:contain;
+    object-position:center;
+}
+.box-1{
+    position:absolute;
+    top:0px;
+    left:0;
+    right:0;
+    height:500px;
+    display:flex;
+    justify-content: left;
+    background-color: black;
+}
+.banner{
+    position:absolute;
+    top:70px;
+    left:0;
+    right:0;
+    height:500px;
+}
+.poster{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px;
+    margin-top:70px;
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:30px;
+}
+.thumbnail{
+    height:378px;
+    width:232px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:8px;
+}
+.movie-name{
+    font-family:Roboto;
+    font-weight:700;
+    font-size:30px;
+    margin-top:0;
+    margin-bottom:10px;
+    color:white;
+}
+.text{
+    font-family:Roboto;
+    font-size:17px;
+    font-weight:500;
+    color:white;
+    margin-top:0px;
+    margin-bottom:0;
+}
+.text-2{
+    font-family:Roboto;
+    font-size:16px;
+    font-weight:500;
+    color:white;
+    margin-top:0px;
+    margin-bottom:0;
+    margin-bottom:20px;
+}
+.rating{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+.rate{
+    background-color: #e50914;
+    height:36px;
+    width:90px;
+    border-radius: 10px;
+    color:white;
+    font-family:Roboto;
+    font-size:15px;
+    border:none;
+}
+.tagbox{
+    display:flex;
+    margin-bottom:10px;
+}
+.tag{
+    height:30px;
+    width:50px;
+    background-color:#e50914;
+    border:none;
+    border-radius:4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family:Roboto;
+    font-weight:500;
+    font-size:13px;
+    margin-right:8px;
+}
+.tickets{
+    height:50px;
+    width:140px;
+    border-radius:6px;
+    background-color:#e50914;
+    border:none;
+    color:white;
+    font-family:Roboto;
+    font-weight:500;
+    font-size:17px;
+}
+.about{
+    font-family:Roboto;
+    color:rgb(0, 0, 0);
+    margin-top:530px;
+    width:1120px;
+    margin-left:190px;
+}
+.aboutt{
+    font-family:Roboto;
+    color:rgb(0, 0, 0);
+    margin-top:50px;
+    width:1120px;
+    margin-left:190px;
+}
+.headtext{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+.about-text{
+    font-size:17px;
+    margin-top:18px;
+    line-height:25px;
+}
+
